@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table with Specific Column Widths and Heights</title>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    .col1 {
+        width: 30%; /* Width for Column 1 */
+    }
+    .col2 {
+        width: 50%; /* Width for Column 2 */
+    }
+    .col3 {
+        width: 20%; /* Width for Column 3 */
+    }
+    .row1 {
+        height: 50px; /* Height for Row 1 */
+    }
+    .row2 {
+        height: 100px; /* Height for Row 2 */
+    }
+    .row3 {
+        height: 75px; /* Height for Row 3 */
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th class="col1">name</th>
+            <th class="col2">course 2</th>
+            <th class="col3">annual fee 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="row1">
+            <td>anisha negi</td>
+            <td>bachelor of computer science</td>
+            <td>18000</td>
+        </tr>
+        <tr class="row2">
+            <td>Aradhya </td>
+            <td>bachelor of arts</td>
+            <td>16000</td>
+        </tr>
+        <tr class="row3">
+            <td>kanish</td>
+            <td>bachelor of home science</td>
+            <td>15000</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
